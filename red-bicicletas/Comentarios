@@ -1,0 +1,6 @@
+1. instalar un generador de proyecto express
+ - npm install express-generator -g
+2. crear proyecto con view engine pug
+ - express red-bicicletas --view=pug
+3. instalar nodemon para no tener que reiniciar el servidor
+ - npm install nodemon -D
