@@ -2,5 +2,18 @@
  - npm install express-generator -g
 2. crear proyecto con view engine pug
  - express red-bicicletas --view=pug
-3. instalar nodemon para no tener que reiniciar el servidor
- - npm install nodemon -D
+3. instalar nodemon para no tener que reiniciar el servidor en modo desarrollo
+ - npm install --save-dev nodemon
+ -"devstart": "nodemon ./bin/www"
+ - npm run devstart para levantar el servidor
+
+
+ ############################ VISTAS ##################################
+ 1. descargar template  https://startbootstrap.com/themes/grayscale
+ 2. tomar el index del template
+ 3. copiar el codigo del body
+ 4. traducir el codigo html a pug en https://html-to-pug.com/
+ 5. pegar ese contenido en el index.pug
+ 6> hacer lo mismo con el encabezado head de index y traducir a pug
+ 6. pasar las referencias a archivos del template a la carpeta public para que sean reconocidas
+ 7. intalar leafleat y seguir las instrucciones de get startesd css y js(en layout)
