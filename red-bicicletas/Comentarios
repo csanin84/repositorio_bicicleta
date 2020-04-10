@@ -17,3 +17,8 @@
  6> hacer lo mismo con el encabezado head de index y traducir a pug
  6. pasar las referencias a archivos del template a la carpeta public para que sean reconocidas
  7. intalar leafleat y seguir las instrucciones de get startesd css y js(en layout)
+
+ ####################### crear modelo ############################################################
+ 1. crear carpeta src
+ 2. crear carpete src/model
+ 3. crear carpeta src/controller
